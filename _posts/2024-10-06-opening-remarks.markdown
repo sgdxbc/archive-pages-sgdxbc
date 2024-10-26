@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  
+title:  开幕致辞
 date:   2024-10-06 16:11:19 +0800
 categories: 
 ---
