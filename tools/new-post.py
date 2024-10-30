@@ -17,6 +17,8 @@ if name == "checkpoint":
 categories: [检查点]
 permalink: /:title-:year:month:day:output_ext
 """
+else:
+    header += "categories: \n"
 
 postdir = Path("_posts")
 filename = postdir / f"{now.strftime('%Y-%m-%d')}-{name}.markdown"
