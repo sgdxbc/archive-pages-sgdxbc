@@ -1,0 +1,8 @@
+---
+layout: post
+title:  SOSP'24 - 第零天
+date:   2024-11-03 21:39:41 -0600
+categories: [检查点, SOSP'24]
+---
+
+占个位，写另一篇先。
