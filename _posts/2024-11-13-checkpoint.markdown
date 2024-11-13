@@ -6,6 +6,11 @@ categories: [检查点]
 permalink: /:title-:year:month:day:output_ext
 ---
 
+> 今早来到实验室发现昨晚Windows自动更新并重启了。
+>
+> KB5044284终于装上了。
+{: .prompt-tip }
+
 昨晚写得匆忙，查缺补漏一下。
 
 本来还跃跃欲试要把DSLabs继续往下写lab3，想想记下来要干的活，想想报销的手续，默默打开这个老老实实写了起来。
