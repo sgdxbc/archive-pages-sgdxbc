@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  会议纪要 - 围绕编辑体验设计编程语言 - 向后兼容的内容站构建系统
+title:  会议纪要 / 围绕编辑体验设计编程语言 / 向后兼容的内容站构建系统
 date:   2024-11-13 09:29:19 +0800
 categories: [检查点]
 permalink: /:title-:year:month:day:output_ext

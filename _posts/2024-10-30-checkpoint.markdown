@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  卡皮巴拉 - 准备SysDW小发言
+title:  卡皮巴拉 / 准备SysDW小发言
 date:   2024-10-30 14:06:16 +0800
 categories: [检查点]
 permalink: /:title-:year:month:day:output_ext

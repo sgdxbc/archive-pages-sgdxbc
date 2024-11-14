@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  模型检查 - 基准测试 - 出行
+title:  模型检查 / 基准测试 / 出行
 date:   2024-10-17 14:21:07 +0800
 categories: [检查点]
 permalink: /:title-:year:month:day:output_ext

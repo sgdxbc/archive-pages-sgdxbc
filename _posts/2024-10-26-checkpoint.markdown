@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  卡住 - 摸鱼 - 用Python写C
+title:  卡住 / 摸鱼 / 用Python写C
 date:   2024-10-26 13:46:20 +0800
 categories: [检查点]
 permalink: /:title-:year:month:day:output_ext
