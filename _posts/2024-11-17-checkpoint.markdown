@@ -1,0 +1,11 @@
+---
+layout: post
+title:  无可奉告
+date:   2024-11-17 09:52:36 +0800
+categories: [检查点]
+permalink: /:title-:year:month:day:output_ext
+---
+
+好吧还是干了一点点点点的事情。把本地的LaTeX构造环境配了起来。ACM模板是好看，但是却要依赖最完整一档的TexLive，Docker镜像大小高达16.33GB。有空看看能不能给它裁一裁。
+
+好了今天无论如何也得搞点卡皮巴拉的进度出来了。
