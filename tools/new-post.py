@@ -8,7 +8,7 @@ name = argv[1]
 now = datetime.now(timezone.utc).astimezone()
 header = f"""\
 layout: post
-title:  
+title:
 date:   {now.strftime("%Y-%m-%d %H:%M:%S %z")}
 """
 
@@ -21,6 +21,8 @@ else:
     header += "categories: \n"
 
 postdir = Path("_posts")
+if name == "checkpoint":
+    postdir = postdir / "checkpoint"
 filename = postdir / f"{now.strftime('%Y-%m-%d')}-{name}.markdown"
 print("Creating", filename)
 filename.write_text("---\n" + header + "---\n\n")
