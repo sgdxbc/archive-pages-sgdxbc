@@ -24,5 +24,8 @@ postdir = Path("_posts")
 if name == "checkpoint":
     postdir = postdir / "checkpoint"
 filename = postdir / f"{now.strftime('%Y-%m-%d')}-{name}.markdown"
+if filename.exists():
+  print(f"Fail: file {filename} exists")
+  exit(1)
 print("Creating", filename)
 filename.write_text("---\n" + header + "---\n\n")
