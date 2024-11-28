@@ -22,4 +22,6 @@ permalink: /:title-:year:month:day:output_ext
 
 科研上也不能完全停下，要开始做点隔壁老板说的任务了，拿TLS+写点Kademlia的规范（spec）。
 
+等小伙伴来了以后把推理过程整个打包成一个CUDA内核的点子给他讲一下。
+
 还要规划下行程。还要去游泳。还要练琴。还要锻炼上肢肌肉。
