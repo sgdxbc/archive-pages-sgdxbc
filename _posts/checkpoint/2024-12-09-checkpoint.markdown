@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Agent4IR点子候选
+date:   2024-12-09 12:21:12 +0800
+categories: [检查点]
+permalink: /:title-:year:month:day:output_ext
+---
+
+### RAG性能工作
+
+将辅助材料预处理成KV cache，或者对KV cache的变换操作，免除预装载（prefill）延迟。
+
+### 关于（人物）形象的图像取回
+
+感觉像在做剪贴画。取回几个人物的图像资料，或者人物和场景的图像资料，然后把它们攒进一张图。
+
+感觉没什么用似乎。再想点取出来了以后干嘛。
