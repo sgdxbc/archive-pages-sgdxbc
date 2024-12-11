@@ -22,8 +22,11 @@ else:
 
 postdir = Path("_posts")
 if name == "checkpoint":
-    postdir = postdir / "checkpoint"
-filename = postdir / f"{now.strftime('%Y-%m-%d')}-{name}.markdown"
+    filename = postdir / "checkpoint" / f"{now.strftime('%Y-%m-%d')}-{name}.markdown"
+else:
+    path = Path(name)
+    path = path.with_name(f"{now.strftime('%Y-%m-%d')}-{path.name}.markdown")
+    filename = postdir / path
 if filename.exists():
   print(f"Fail: file {filename} exists")
   exit(1)
