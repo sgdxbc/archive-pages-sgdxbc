@@ -6,10 +6,10 @@ categories: [检查点]
 permalink: /checkpoints/:year:month:day:output_ext
 ---
 
-![之前的截图](assets/img/2024-11-19-checkpoint/Screenshot%202024-11-19%20091213.png){: .shadow }
+![之前的截图](assets/img/Screenshot%202024-11-19%20091213.png){: .shadow }
 _之前_
 
-![之后的截图](assets/img/2024-11-19-checkpoint/Screenshot%202024-11-19%20154815.png){: .shadow }
+![之后的截图](assets/img/Screenshot%202024-11-19%20154815.png){: .shadow }
 _之后_
 
 算是了却了长久以来的一番心愿。

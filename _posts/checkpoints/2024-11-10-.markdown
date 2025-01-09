@@ -25,7 +25,7 @@ permalink: /checkpoints/:year:month:day:output_ext
 周末回到实验室首先把台式机给重装了。然后因为装Docker的过程太狼狈，气不过又重装了一遍，然后又碰到了同样的情况。
 
 ```plaintext
-{% include_relative 2024-11-10-checkpoint/note.txt %}
+{% include_relative 2024-11-10-note.txt %}
 ```
 {: file="重装步骤.txt" }
 

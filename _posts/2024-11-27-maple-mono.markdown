@@ -7,7 +7,7 @@ categories:
 
 换了个[字体][1]和高亮主题。
 
-![VS Code截图](assets/img/2024-11-27-maple-mono/Screenshot 2024-11-27 123608.png){: .shadow }
+![VS Code截图](assets/img/Screenshot 2024-11-27 123608.png){: .shadow }
 
 [1]: https://github.com/subframe7536/maple-font
 
