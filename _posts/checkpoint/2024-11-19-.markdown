@@ -3,7 +3,7 @@ layout: post
 title:  实验室台式机升级
 date:   2024-11-19 15:48:28 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 ![之前的截图](assets/img/2024-11-19-checkpoint/Screenshot%202024-11-19%20091213.png){: .shadow }

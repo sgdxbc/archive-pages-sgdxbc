@@ -3,7 +3,7 @@ layout: post
 title:  Submission deadline in 21 hours
 date:   2024-12-10 09:56:42 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 卡皮巴拉那边一众大佬轮番上线，依次指点江山，在前排吃瓜吃得很爽。

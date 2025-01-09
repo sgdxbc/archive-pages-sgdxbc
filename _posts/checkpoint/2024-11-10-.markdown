@@ -3,7 +3,7 @@ layout: post
 title:  重装
 date:   2024-11-10 22:45:14 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 唉。还是等下再写吧。

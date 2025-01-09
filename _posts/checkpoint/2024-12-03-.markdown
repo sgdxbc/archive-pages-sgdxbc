@@ -3,7 +3,7 @@ layout: post
 title:  浏览器标签页快照
 date:   2024-12-03 14:40:52 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 <dl><p>

@@ -3,7 +3,7 @@ layout: post
 title:  卡皮巴拉 / R / DSLabs
 date:   2024-11-15 11:31:30 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 昨晚才写了上一篇，今天上午又来写，可想而知中间并来不及干什么。

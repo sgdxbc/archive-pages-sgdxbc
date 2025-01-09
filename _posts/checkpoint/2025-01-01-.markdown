@@ -3,7 +3,7 @@ layout: post
 title:  新年好
 date:   2025-01-01 16:24:12 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 image:
   path: assets/img/2025-01-01-checkpoint/Screenshot 2025-01-01 162447.png
 ---

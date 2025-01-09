@@ -3,7 +3,7 @@ layout: post
 title:  Interlude
 date:   2024-11-29 08:40:55 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 关于epoll的性能测试想了想但是没太想清楚怎么写，要不还是先放放吧。

@@ -3,7 +3,7 @@ layout: post
 title:  回来看看
 date:   2024-12-18 14:10:33 +0000
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 本科老板对我依然赞赏有加。

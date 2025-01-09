@@ -28,7 +28,7 @@ else:
     path = path.with_name(f"{now.strftime('%Y-%m-%d')}-{path.name}.markdown")
     filename = postdir / path
 if filename.exists():
-  print(f"Fail: file {filename} exists")
-  exit(1)
+    print(f"Fail: file {filename} exists")
+    exit(1)
 print("Creating", filename)
 filename.write_text("---\n" + header + "---\n\n")

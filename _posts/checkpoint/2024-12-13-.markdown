@@ -3,7 +3,7 @@ layout: post
 title:  过山车坐得脑浆都摇匀了
 date:   2024-12-13 14:39:16 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 不过今天还晕晕的应该只是还没睡够。昨晚躺在一张摇来晃去失重滚筒冲刺急停的床上些许得难以入睡，不过还好梦里没有接着坐过山车。兴趣累得根本没梦做吧。

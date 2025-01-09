@@ -3,7 +3,7 @@ layout: post
 title:  卡皮巴拉 / 准备SysDW小发言
 date:   2024-10-30 14:06:16 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 这下终于开始认真搞卡皮巴拉了。中午把设计差不多定下来了，跟一作老哥描述了一下。昨天跟ℒ开会也描述了一下，他们都说好。

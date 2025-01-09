@@ -3,7 +3,7 @@ layout: post
 title:  TLSe样例服务器 / 双份编译Redis
 date:   2024-11-26 10:51:59 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 昨天搞定了一个基于TLSe的迁移测试样例。没出什么大的幺蛾子，非常争气。

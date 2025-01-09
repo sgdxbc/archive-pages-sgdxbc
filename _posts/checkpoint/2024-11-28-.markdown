@@ -3,7 +3,7 @@ layout: post
 title:  Interlude
 date:   2024-11-28 09:43:50 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 卡皮巴拉方面开始进入待命状态。

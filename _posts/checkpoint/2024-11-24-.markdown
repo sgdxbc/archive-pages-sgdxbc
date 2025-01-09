@@ -3,7 +3,7 @@ layout: post
 title:  从前慢
 date:   2024-11-24 10:17:32 +0800
 categories: [检查点]
-permalink: /:title-:year:month:day:output_ext
+permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 > 从前设计代码逻辑很慢，内核文档很远，一生只够写一个程序。
