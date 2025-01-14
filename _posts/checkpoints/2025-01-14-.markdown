@@ -14,3 +14,5 @@ permalink: /unnamed/checkpoint/:year:month:day:output_ext
 
 11点17分。
 读了Performance Evaluation of IPFS in Private Networks。主要是来看它的性能测试是怎么设计的。大概就是将节点明确地分类为文件服务器和客户端。我觉得合理。
+
+午饭之前读了Self-certifying file system。
