@@ -1,8 +1,5 @@
 ---
-layout: post
 date:   2025-01-13 20:50:48 +0800
-categories: [检查点]
-permalink: /checkpoint/:year:month:day:output_ext
 ---
 
 > 把这个项目的编辑器窗口常驻挂在桌面上。也许有助于没事就记一下。

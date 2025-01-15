@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  卡住 / 摸鱼 / 用Python写C
 date:   2024-10-26 13:46:20 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 距离上个检查点已经一周多了。遇到的挑战并不是像预期中的「不想动笔写」。相较之不知是更好还是更坏，实际上是「根本没想起来要写」。

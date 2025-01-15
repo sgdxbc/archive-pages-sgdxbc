@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  类型系统是实现与规范之间的桥梁
 date:   2024-10-11 10:30:47 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 花了比预想中更多的时间研究[SquirrelFS]和其所基于的[Soft Updates]。

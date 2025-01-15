@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  DSLabs / CSC奖学金
 date:   2024-11-14 17:18:40 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 昨晚决定在OSDI'25投稿周期这段时间每天早上来到实验室就写日志来勉励自己。

@@ -4,11 +4,8 @@ from pathlib import Path
 
 now = datetime.now(timezone.utc).astimezone()
 header = f"""\
-layout: post
 title:  
 date:   {now.strftime("%Y-%m-%d %H:%M:%S %z")}
-categories: [点子]
-permalink: /unnamed/idea/:year:month:day:output_ext
 """
 
 postdir = Path("_posts") / "ideas"

@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  无可奉告
 date:   2024-12-02 08:34:56 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 嘛，往回看啥也没干，写写计划。

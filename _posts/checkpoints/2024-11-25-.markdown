@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  简易IO多路复用服务器 / C代码风格配置
 date:   2024-11-25 10:36:27 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 上个周末和今天的主要工作内容是摸一个基于epoll的简易服务器出来（当然，要用C写）。理论上这玩意不是非要自己写一遍，但是一来在网上找了一圈没有特别合适的，二来也算是帮助自己进入状态一种途径。

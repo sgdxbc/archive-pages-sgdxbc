@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  新年好
 date:   2025-01-01 16:24:12 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 image:
   path: assets/img/Screenshot 2025-01-01 162447.png
 ---

@@ -1,8 +1,5 @@
 ---
-layout: post
 date:   2025-01-09 17:14:55 +0800
-categories: [检查点]
-permalink: /checkpoint/:year:month:day:output_ext
 ---
 
 对这个日志站的源文件结构做了一些调整，主要是写作内容的部分。搞得顺眼了一些，大概。

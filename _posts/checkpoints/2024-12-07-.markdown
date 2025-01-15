@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  点子 / AAAI / 形式化验证
 date:   2024-12-07 15:43:13 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 大家都知道Makefile不好用，所以可以写个make。

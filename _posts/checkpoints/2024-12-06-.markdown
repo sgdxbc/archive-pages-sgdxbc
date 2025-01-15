@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  未命名检查点
 date:   2024-12-06 15:18:06 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 先前列举的工作内容完成了好几项。嘛，先看十集chiikawa歇会。

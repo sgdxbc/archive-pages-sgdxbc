@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  度假季 - 终
 date:   2024-12-27 19:55:56 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 明明记得实验室台式机在我走的时候是蓝屏着的，回来却看到了操作系统登录页，不知道发生了什么。

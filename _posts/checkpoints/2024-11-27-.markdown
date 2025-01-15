@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  未命名检查点
 date:   2024-11-27 09:21:31 +0800
-categories: [检查点]
-permalink: /checkpoints/:year:month:day:output_ext
 ---
 
 昨天没有把跑在TLSe上的Redis鼓捣出来，今天继续。
