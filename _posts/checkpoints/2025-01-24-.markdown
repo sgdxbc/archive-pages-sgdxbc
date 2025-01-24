@@ -8,3 +8,8 @@ date:   2025-01-24 14:52:27 +0800
 > The phenomenal success of large language models (LLMs) has prompted research into distilling...
 
 急忙转头去临时学习了一番蒸馏。
+
+17点46分。
+读完了。
+
+想写个思维导图应用。
