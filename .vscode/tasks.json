@@ -10,7 +10,8 @@
         "isDefault": true
       },
       "problemMatcher": [],
-      "detail": "Runs the Jekyll server with live reload."
+      "detail": "Runs the Jekyll server with live reload.",
+      "runOptions": { "runOn": "folderOpen" }
     },
     {
       "label": "Build Jekyll Site",
