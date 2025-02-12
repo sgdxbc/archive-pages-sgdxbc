@@ -5,3 +5,11 @@ date:   2025-02-12 13:54:59 +0800
 13点55分。昨天后来一直在做组会的幻灯片。刚刚做完了。
 
 今天很困，尽量读点什么撑过去。
+
+16点58分。讲完了组会。试试趁着还能想得动把积压的无关论文都看完。已经看了
+
+> Vakilinia, Iman, Weihong Wang, and Jiajun Xin. "An incentive-compatible mechanism for decentralized storage network." IEEE Transactions on Network Science and Engineering 10.4 (2023): 2294-2306.
+
+和
+
+> Kadekodi, Saurabh, et al. "Practical design considerations for wide locally recoverable codes (LRCs)." ACM Transactions on Storage 19.4 (2023): 1-26.
