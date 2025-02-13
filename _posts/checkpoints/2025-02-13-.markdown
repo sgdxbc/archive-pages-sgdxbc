@@ -24,3 +24,9 @@ date:   2025-02-13 16:07:16 +0800
 感觉就算只是见识一下有多大的工作量也是充足的动机。
 
 不过在那之前还是先把编程语言写出来吧。现在就写吧。
+
+----
+
+16点37分。顺着重写操作系统的想法去加深了解了一下FUSE。看了内核文档和Wiki页面。
+
+> Vangoor, Bharath Kumar Reddy, Vasily Tarasov, and Erez Zadok. "To {FUSE} or not to {FUSE}: Performance of {User-Space} file systems." 15th USENIX Conference on File and Storage Technologies (FAST 17). 2017.
