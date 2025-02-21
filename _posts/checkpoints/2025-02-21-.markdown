@@ -6,7 +6,7 @@ date:   2025-02-21 15:46:54 +0800
 
 15点47分。
 
-> Zhang, Jianting, et al. "Sharding SMR with Optimal-size Shards for Highly Scalable Blockchains." arXiv e-prints (2024): arXiv-2406.
+> Yu, Haifeng, et al. "Ohie: Blockchain scaling made simple." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020.
 
 在此之前还看了一篇。
 
