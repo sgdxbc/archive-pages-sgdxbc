@@ -1,0 +1,21 @@
+---
+date:   2025-02-21 15:46:54 +0800
+---
+
+感觉上只是几天没写，一看居然已经一周过去了。
+
+15点47分。
+
+> Zhang, Jianting, et al. "Sharding SMR with Optimal-size Shards for Highly Scalable Blockchains." arXiv e-prints (2024): arXiv-2406.
+
+在此之前还看了一篇。
+
+> Dang, Hung, et al. "Towards scaling blockchain systems via sharding." Proceedings of the 2019 international conference on management of data. 2019.
+
+但是这一篇没什么值得参考的。
+
+刚看的这一篇大概明确了作恶节点的随机分布。关于存储容量如何在节点之间分布估计最后还是得靠我自己设计了。
+
+再之前大概就是把Entropy的理论框架建立了一下。还不够满意，先试着写了一点仿真代码，但是也没写明白，要先设计好才行。
+
+还试着往下写了一点编程语言，但是严重卡在了垃圾收集和解释器的交互部分。
