@@ -19,3 +19,9 @@ date:   2025-02-21 15:46:54 +0800
 再之前大概就是把Entropy的理论框架建立了一下。还不够满意，先试着写了一点仿真代码，但是也没写明白，要先设计好才行。
 
 还试着往下写了一点编程语言，但是严重卡在了垃圾收集和解释器的交互部分。
+
+16点12分。
+
+> Dang, Hung, et al. "Towards scaling blockchain systems via sharding." Proceedings of the 2019 international conference on management of data. 2019.
+
+没什么区别，还是随机分布。（当然前提是协议自己要做好随机化。）积攒的论文都清空了。
