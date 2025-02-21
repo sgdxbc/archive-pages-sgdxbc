@@ -196,12 +196,12 @@ defaults:
       path: "_posts/checkpoints"
     values:
       categories: 检查点
-      permalink: /unnamed/checkpoint/:year:month:day:output_ext
+      permalink: /unnamed/checkpoint/:year:month:day
   - scope:
       path: "_posts/ideas"
     values:
       categories: 点子
-      permalink: /unnamed/idea/:year:month:day/:title:output_ext
+      permalink: /unnamed/idea/:year:month:day/:title
 
 sass:
   style: compressed
