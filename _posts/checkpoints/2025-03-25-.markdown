@@ -17,3 +17,7 @@ date:   2025-03-25 04:50:41 +0000
 > Lokhava, Marta, et al. "Fast and secure global payments with stellar." Proceedings of the 27th ACM Symposium on Operating Systems Principles. 2019.
 
 提出一种另类共识场景，并针对性地开发共识算法和上层协议。
+
+> Neiheiser, Ray, Miguel Matos, and Luís Rodrigues. "Kauri: Scalable bft consensus with pipelined tree-based dissemination and aggregation." Proceedings of the ACM SIGOPS 28th Symposium on Operating Systems Principles. 2021.
+
+为BFT协议设计的树状分发（dissenimate）/聚集（aggragate）协议。
