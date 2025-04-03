@@ -40,3 +40,7 @@ async fn write_message<W: AsyncWrite + Unpin>(
 ----
 
 写了几天以后终于想歇一下了。继续看论文吧。
+
+> Aksoy, Remzi Can, and Manos Kapritsos. "Aegean: replication beyond the client-server model." Proceedings of the 27th ACM Symposium on Operating Systems Principles. 2019.
+
+在微服务的语境下探讨复制协议。状态机复制的状态转移不再是一个本地副作用而是可能会作为复制的客户端发起请求，制造外部副作用。很有趣的问题设定，但是总觉得有更简单的办法。
