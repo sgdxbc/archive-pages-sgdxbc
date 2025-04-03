@@ -12,8 +12,24 @@ date:   2025-04-03 02:44:10 +0000
 
 那么这次的就很聪明了吗？越写越觉得眼熟了。希望我还是有一些长进的吧。
 
-总之先来看看这次的肉料比。
+总之先来看看这次的料肉比。
 
 ![alt text](<assets/img/Screenshot 2025-04-03 at 11.01.40.png>)
 
 不甚理想。
+
+----
+
+> Wang, Stephanie, et al. "Lineage stash: fault tolerance off the critical path." Proceedings of the 27th ACM Symposium on Operating Systems Principles. 2019.
+
+一篇跟我的阅读主题无关的工作，拖拖拉拉看了好久。其中用到了因果日志（causal logging），是个说不定对第三个工作有帮助的概念。
+
+> Giridharan, Neil, et al. "Autobahn: Seamless high speed BFT." Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles. 2024.
+
+因为昨天的组会上讲了这篇所以提前看了。把数据分发和共识解耦的思想在Narwhal and Tusk中就有所体现，但是这篇工作提出分发应当仅仅承担保证可用性的责任，从而更轻量的分发可以带来目标场景下的更理想的性能。
+
+查询Narwhal and Tusk名字怎么拼的过程中发现这个工作的代码是（前）Facebook实现的。浏览实现仓库的过程中发现了[Fabric]。感觉已经没必要自己发明跑实验脚本了。
+
+[Fabric]: https://www.fabfile.org/
+
+前一阵子在那篇PhD读后感还是什么文章里读到，读PhD最重要的就是能接受自己的无知（ignorance）。嘛，我觉得这还不够，还要接受自己总是错失摆脱无知的机会。
