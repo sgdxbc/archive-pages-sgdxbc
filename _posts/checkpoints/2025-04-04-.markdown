@@ -38,3 +38,29 @@ date:   2025-04-04 07:18:55 +0000
 我还是没太搞懂它是怎么比排序执行式的协议吞吐更高的，只是提前投机执行和不提前不投机执行的区别啊，开销没有差别。它也不和这种工作比，麻了。感觉它的意思是它觉得排序执行的协议天生不支持并行执行，所以压根不做考虑。
 
 感觉它也可以算是Neo的以前工作，我论文里有没有管它啊（冷汗）。这不禁让人想起我讲完Neo以后就有华为的人来找我聊，糟了。（
+
+> Androulaki, Elli, et al. "Hyperledger fabric: a distributed operating system for permissioned blockchains." Proceedings of the thirteenth EuroSys conference. 2018.
+
+复习了一下。我把Fabric的执行排序证实（execute-order-validate）和Eve的执行验证（execute-verify）记混了，或者说一直把它们当作是一样的。执行验证是投机执行完直接比较状态，状态一致就提交。执行排序证实是执行完对执行的副作用排序，然后按顺序将副作用提交并中止冲突的副作用。两者都要求灰盒的，键值存储形式的状态，但是Eve是对状态构建高效的一致性检查（Merkle树），对更新是完全黑盒不管的，Fabric还要求灰盒的、可以用读写集合表示出来的更新。Eve的目标主要就是黑盒执行过程，而Fabric则几乎没有这个目标。
+
+那么问题来了，以太坊到底算什么呢？可能只能算要求投机执行的排序执行吧，或者说，执行排序提交。
+
+> Buchman, Ethan, Jae Kwon, and Zarko Milosevic. "The latest gossip on BFT consensus." arXiv preprint arXiv:1807.04938 (2018).
+
+Tendermint早就已经有自己论文了，但是人们好像总是在引用它的网站。很难描述的一种BFT协议。基于轮的模式有点像异步网络模型下的BFT，但是它又有超时。像是一种把一对多+多对一改成多对多的HotStuff。
+
+又读了一篇[Decentralized Thoughts的文章][1]有点似懂非懂了。它跟PBFT的原理是类似的，只是表述成了任意多轮的形式来兼容view change。它和PBFT的主要区别是PBFT在view change的时候交换大量的有可能过时的信息，而Tendermint先等一个强制性的超时，然后假设每个人都有新鲜的信息了，从而减少要交换的信息量。
+
+[1]: https://decentralizedthoughts.github.io/2023-04-01-hotstuff-2/
+
+我觉得好像还行。毕竟本来view change的触发机制就是超时。从工程的角度超多超少都还好。
+
+然后居然还给我找到一个[PBFT的官方实现](https://pmg.csail.mit.edu/bft/bft.tar.gz)。居然还有这种东西，太可怕了。
+
+又去读了一下[Tendermint文档](https://docs.tendermint.com/master/introduction/what-is-tendermint.html#consensus-overview)。这个好懂多了。
+
+> Kuhring, Lucas, et al. "Streamchain: Rethinking blockchain for datacenters." arXiv preprint arXiv:1808.08406 (2018).
+
+一个纯堆工程的性能优化工作。去掉批处理换取低延迟，然后再尽量优化来保持住吞吐。
+
+看完了OSDI20和SOSP21。坏消息从这里开始OSDI一年一届。好消息OSDI24已经没有什么BFT了（真的是好消息吗）。今天先看到这里吧。
