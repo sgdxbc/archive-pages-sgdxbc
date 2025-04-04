@@ -64,3 +64,5 @@ Tendermint早就已经有自己论文了，但是人们好像总是在引用它�
 一个纯堆工程的性能优化工作。去掉批处理换取低延迟，然后再尽量优化来保持住吞吐。
 
 看完了OSDI20和SOSP21。坏消息从这里开始OSDI一年一届。好消息OSDI24已经没有什么BFT了（真的是好消息吗）。今天先看到这里吧。
+
+感到不安心又去读了[Tendermint另外的文档](https://docs.tendermint.com/master/spec/consensus/consensus.html)。果然在每次出块之间都要有强制的超时。论文里完全不写，很坏。算了不管他了。
