@@ -63,4 +63,4 @@ date:   2025-04-03 02:44:10 +0000
 
 > Zhang, Yunhao, et al. "Byzantine ordered consensus without byzantine oligarchy." 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20). 2020.
 
-之前我自己在组会上讲过的，但是已经完全记不得它的方案了。居然是用实时时间来做的，挺鸡贼的。
+之前我自己在组会上讲过的，但是已经完全记不得它的方案了。居然是用实时时间来做的，挺鸡贼的。当然，这篇主要的贡献还是提出了拜占庭语境下的公平性分析框架，还指出了一些不可能性（impossiblilties），作为领域内深入分析的基础。
