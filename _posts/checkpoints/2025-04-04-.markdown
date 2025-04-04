@@ -1,0 +1,26 @@
+---
+date:   2025-04-04 07:18:55 +0000
+---
+
+今天首先把givre集成进了bft代码库的门限签名模块。它的性能很不错，验证开销和普通的ecdsa没有区别（感觉完全是因为k256没有secp256k1实现高效），感觉可能真的应该用它来搭HotStuff。
+
+性能测试构建依赖已经接近300个了。有点恐怖了，不过想想其中同时包含了0.7、0.8和0.9版本的rand就有点绷不住。
+
+----
+
+> Suri-Payer, Florian, et al. "Basil: Breaking up BFT with ACID (transactions)." Proceedings of the ACM SIGOPS 28th Symposium on Operating Systems Principles. 2021.
+
+打破了传统的「底层复制上层分片+事务并发控制」的分层思想，一体成型的BFT事务存储（store）。规避全局排序，借助乐观并发控制做并发。
+
+对比了TAPIR和基于BFT-SMART和HotStuff的事务存储。感觉整个实验方案是个分布式协议开会，于是去把「评估工件」（evaluation artifact）找来看了看。
+
+> 好小众的翻译。
+{: .prompt-tip }
+
+然后发现非常混乱并且全部三个别人的协议都是利用现成的实现。好吧。
+
+顺着TAPIR去翻了翻Irene的网站。读了她关于怎么写SOSP的博客，很有道理。
+
+> Zhang, Irene, et al. "Building consistent transactions with inconsistent replication." ACM Transactions on Computer Systems (TOCS) 35.4 (2018): 1-37.
+
+又是一篇居然才读的工作，在组里的代码库里已经久闻大名了。感觉上有点和Autobahn神似：把复制层打薄，只负责可用性，然后共识由上层的事务协议保证。不同的是Autobahn是对原本一层的复制协议分层成分发层和共识层，共识层本身就能完成整个复制协议的功能（只是特定场景下的性能不好），所以设计比较简单；而TAPIR所针对的容错事务存储场景本来两层就是各管各的，只是一致性的职责两层各做一部分有冗余交集。所以如果把一致性完全集中到事务层了就要对两层都做彻底地重新设计，复制层提供的接口也要改变（这也是TAPIR的核心思想），整体很复杂，没有完全看懂。
